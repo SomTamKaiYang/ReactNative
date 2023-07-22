@@ -9,7 +9,7 @@ const Counter = () => {
     <View style={styles.container}>
       <Text>{count}</Text>
       <Button
-        title="Click Me"
+        title="Click Me "
         onPress={() => {
           setCount(count + 1);
         }}

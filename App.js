@@ -15,7 +15,7 @@ export default function App() {
       {/*<DisplayandImage />*/}
       {/*<LotsOfGreeting/>*/}
       {/* <Customtext/> */}
-      {/* <Counter/> */}
+      {/* <Counter/>  */}
       {/* <Myinput/> */}
       {/* <IncrementCounter /> */}
       <Form/>

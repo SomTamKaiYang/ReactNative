@@ -19,7 +19,7 @@ const Form = () => {
       <Text>{"\n\n"}</Text>
       <Button title="INCREMENT AGE" onPress={() => setAge(age + 1)} />
       <Text>
-        {"\n\n"}Hello,{name} You are {age}.
+        {"\n\n "}Hello,{name} You are {age}.
       </Text>
     </View>
   );

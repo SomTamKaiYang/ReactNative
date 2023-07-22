@@ -12,7 +12,7 @@ const IncrementCounter = () => {
     <View>
       <Text style={{ fontsize: 24, fontstyle: "bold" }}>
             Your age: {age}</Text>
-      <Text>{'\n\n'}</Text>
+      <Text>{'\n\n '}</Text>
       <Button title="+3" onPress={() => {
           setAge(age + 3);
         }}/>
