@@ -5,7 +5,7 @@ import TouchablePractice from './components/TouchablePractice'
 
 const App = () => {
   return (
-    <View style={{flex:1}}>
+    <View style={{flex:1 }}>
       <TouchablePractice/>
     </View>
   )

@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   buttonFacebookstyle: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "485a96",
+    backgroundColor: "#485a96",
     borderWidth: 0.5,
     borderColor: "#fff",
     height: 40,
