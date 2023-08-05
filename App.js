@@ -6,7 +6,7 @@ import TouchablePractice from './components/TouchablePractice'
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <View style={{flex:1}}>
       {<TouchablePractice/>}
       {/* <Example_useEffect/> */}
       {/* {<UseEffectFlatList/>} */}
