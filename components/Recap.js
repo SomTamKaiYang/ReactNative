@@ -28,7 +28,11 @@ const Recap = () => {
         }}
       />
       <Text>{"\n"}</Text>
-      <Button style={styles.submitButton} title="SUBMITT" onPress={alertt()} />
+      <Button
+        style={[styles.submitButton, styles.submitButtonText]}
+        title="SUBMITT"
+        onPress={alertt()}
+      />
     </View>
   );
 };
