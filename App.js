@@ -3,12 +3,14 @@ import React from 'react'
 // import TouchablePractice from './components/TouchablePractice'
 // import Example_useEffect from './components/Example_useEffect'
 // import UseEffectFlatList from './components/UseEffectFlatList'
-import RandomUserScreen from './components/RandomUserScreen'
+// import RandomUserScreen from './components/RandomUserScreen'
+import FlatList_headerFooter from './components/FlatList_headerFooter'
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      {<RandomUserScreen/>}
+    <View style={{flex:1}}>
+      {<FlatList_headerFooter/>}
+      {/* {<RandomUserScreen/>} */}
       {/* {<TouchablePractice/>} */}
       {/* <Example_useEffect/> */}
       {/* {<UseEffectFlatList/>} */}
