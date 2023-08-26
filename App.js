@@ -5,13 +5,15 @@ import React from 'react'
 // import UseEffectFlatList from './components/UseEffectFlatList'
 // import RandomUserScreen from './components/RandomUserScreen'
 // import FlatList_headerFooter from './components/FlatList_headerFooter'
-import News from './components/News'
+// import News from './components/News'
 // import FlatListAPI from './components/FlatListAPI'
+import ProductScreen from './components/ProductScreen'
 
 const App = () => {
   return (
     <View style={{flex:1}}>
-      {<News/>}
+      {<ProductScreen/>}
+      {/* {<News/>} */}
       {/* {<FlatListAPI/>} */}
       {/* {<FlatList_headerFooter/>} */}
       {/* {<RandomUserScreen/>} */}
