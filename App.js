@@ -4,12 +4,16 @@ import React from 'react'
 // import Example_useEffect from './components/Example_useEffect'
 // import UseEffectFlatList from './components/UseEffectFlatList'
 // import RandomUserScreen from './components/RandomUserScreen'
-import FlatList_headerFooter from './components/FlatList_headerFooter'
+// import FlatList_headerFooter from './components/FlatList_headerFooter'
+import News from './components/News'
+// import FlatListAPI from './components/FlatListAPI'
 
 const App = () => {
   return (
     <View style={{flex:1}}>
-      {<FlatList_headerFooter/>}
+      {<News/>}
+      {/* {<FlatListAPI/>} */}
+      {/* {<FlatList_headerFooter/>} */}
       {/* {<RandomUserScreen/>} */}
       {/* {<TouchablePractice/>} */}
       {/* <Example_useEffect/> */}
