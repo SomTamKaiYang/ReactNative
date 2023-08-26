@@ -1,4 +1,4 @@
 ID- 2113110551
 NAME- Natthaphum Kongsatjaviwat
-DATETOSTUDY- 5-August-2023
-CLASSTOPIC- Recap : Practice with Touchable Components, React Hook part useEffect 
+DATETOSTUDY- 26-August-2023
+CLASSTOPIC- Recap : using Android Emulator,using Fetch call API in Component,Postman calls the API
