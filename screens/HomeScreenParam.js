@@ -19,7 +19,7 @@ const HomeScreen = ({navigation}) => {
               //1.Navigate to the Details mroute with params
               navigation.navigate('Details',{
                 itemId : 1088 ,
-                otherParam: 'React NAtive App'
+                otherParam: 'React Native App'
               })
             }}
             />
