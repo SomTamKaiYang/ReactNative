@@ -3,7 +3,7 @@ import React from 'react'
 
 
 
-const DetailScreen = ({navigation}) => {
+const DetailsScreen = ({navigation}) => {
   return (
     <View style = {{flex:1,alignItems:'center',justifyContent:'center'}}>
             <Text>Details Screen</Text>
@@ -23,4 +23,4 @@ const DetailScreen = ({navigation}) => {
   )
 }
 
-export default DetailScreen
+export default DetailsScreen
