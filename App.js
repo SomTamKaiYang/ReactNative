@@ -4,8 +4,11 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import FirstPage from "./components/FirstPage";
-import SecondPage from "./components/SecondPage";
+import FirstPage from "./Pages/FirstPage";
+import SecondPage from "./Pages/SecondPage";
+import ThirdPage from "./Pages/ThirdPage";
+
+import CustomSideBarMenu from "./Pages/CustomSideBarMenu";
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -13,15 +16,8 @@ const Drawer = createDrawerNavigator();
 function FirstScreenStack() {
   return (
     <Stack.Navigator
-      screenOptions={{
-        headerStyle: {
-          backgroundColor: "#7fffd4",
-        },
-        headerTintColor: "#008080",
-        headerTitleStyle: {
-          fontWeight: "bold",
-        },
-      }}
+      initialRouteName="FirstPage"
+      screenOptions={{ headerShown: false }}
     >
       <Stack.Screen name="FirstPage" component={FirstPage} />
     </Stack.Navigator>
@@ -31,15 +27,8 @@ function FirstScreenStack() {
 function SecondScreenStack() {
   return (
     <Stack.Navigator
-      screenOptions={{
-        headerStyle: {
-          backgroundColor: "#7fffd4",
-        },
-        headerTintColor: "#008080",
-        headerTitleStyle: {
-          fontWeight: "bold",
-        },
-      }}
+      initialRouteName="FirstPage"
+      screenOptions={{ headerShown: false }}
     >
       <Stack.Screen name="SecondPage" component={SecondPage} />
     </Stack.Navigator>
@@ -51,10 +40,12 @@ function MyDrawer() {
     <Drawer.Navigator
       screenOptions={{
         drawerStyle: {
-          backgroundColor: "#e6e6ff",
+          backgroundColor: "#e6e",
           width: 240,
         },
       }}
+      drawerContent={(props)=><CustomSideBarMenu{...props}/>}
+
     >
       <Drawer.Screen
         name="FirstDrawer"
